@@ -29,24 +29,6 @@ A powerful desktop application that combines **daily affirmations** with **voice
 - Python 3.8 or higher
 - Windows, macOS, or Linux
 
-### Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/affirmation-manifestation.git
-   cd affirmation-manifestation
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the application**
-   ```bash
-   python affirmation_app.py
-   ```
-
 ### Dependencies
 - `PyQt6`: Desktop GUI framework
 - `SpeechRecognition`: Voice recognition library
@@ -191,7 +173,6 @@ Edit `~/.affirmation_config.json` and modify color values:
 
 ### Application Won't Start
 - Ensure Python 3.8+ is installed
-- Verify all dependencies: `pip install -r requirements.txt`
 - Check that `affirmation_app.py` is in correct directory
 
 ### Settings Not Saving
@@ -223,10 +204,6 @@ Track your manifestation journey:
 3. **Speak Intentionally**: Really feel the words as you speak
 4. **Review History**: Check your dashboard weekly for motivation
 5. **Progressive Affirmations**: Update affirmations as you achieve goals
-
-## 📝 License
-
-This project is licensed under the MIT License - see LICENSE file for details.
 
 ## 🤝 Contributing
 
